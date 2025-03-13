@@ -1,0 +1,220 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.landing-page {
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+}
+.landing-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: left; /* Align logo to the left */
+}
+
+.landing-nav a {
+  color: #000;
+  font-size: 1.2em;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.hero-here {
+  padding: 100px 30px;
+}
+.hero-here h1{
+  font-size: 2em;
+  font-weight: 100;
+}
+
+.hero h1{
+  font-size:5em;
+  font-weight: 450; 
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.gradient-text {
+  background: linear-gradient(to right,  rgb(80, 224, 80), #6a82fb); 
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+
+p{
+  font-size: 1.6em;
+  color: #666;
+  margin-bottom: 50px;
+}
+
+.try-button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.5em;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.personalized {
+  margin-top: 50px;
+  font-size: 1.5em;
+  color: #333;
+}
+ body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #fff;
+  color: #2d3436; /* Dark gray */
+} 
+
+a {
+  color: #2d3436;
+}
+
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin: 0 10%; /* Add left and right margins to center content */
+}
+
+.text-content {
+  flex: 1;
+  padding: 1.25rem;
+  margin-right: 1rem;
+}
+
+.text-content h2 {
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: #2d3436;
+  margin-bottom: 1rem;
+}
+
+.text-content p {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: #718096;
+}
+
+.video-placeholder {
+  background-color: #f0f0f0;
+  width: 600px;
+  height: 340px;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  color: #999;
+}
+
+/* Image adjustments */
+  video {
+   
+  border-radius: 26px; 
+}
+
+.upload-section {
+  background-color: #f9f9f9;
+}
+
+/* Privacy Section */
+.privacy-section {
+  background-color: #eaeaea;
+}
+.privacy-section h2{
+  font-size: 2.25rem;
+  font-weight: 100;
+}
+.privacy-section p{
+  font-size: 1.5rem;
+}
+
+/* How people are using section */
+.how-people-section {
+  background-color:  white;
+}
+.how-people-section h2{
+  font-size: 2rem;
+  font-weight: 100;
+
+}
+.how-people-cards {
+  
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+
+.how-people-card {
+  width: 300px;
+  padding: 20px;
+  border: 5px solid rgb(209, 195, 195);
+  border-radius: 18px;
+  text-align: left;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.how-people-card:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 10px 20px rgba(16, 15, 15, 0.2);
+}
+
+.how-people-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-weight: 100;
+  
+}
+.how-people-card p{
+  font-size: 1.2em;
+}
+
+
+/* Footer */
+.landing-footer {
+  background-color: #fff;
+  border-top: 1px solid #e0e0e0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.google-logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #777;
+  text-decoration: none;
+}
+.google-logo a{
+  text-decoration: none;
+}
+.footer-nav a {
+  color: #777;
+  font-size: 1.5em;
+  text-decoration: none;
+  margin-left: 20px;
+}
